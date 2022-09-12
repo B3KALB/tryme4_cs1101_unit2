@@ -27,3 +27,12 @@ def fun_with_arg(unique_name):
 
 print(get_the_param)
 # example 5
+outside_var = 2 + 2
+
+def new_funk():
+    outside_var = 6 + 6
+    print(outside_var)
+
+new_funk()
+
+print(outside_var)
