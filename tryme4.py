@@ -4,7 +4,9 @@ def python_is_great(var):
     incoming = str(var)
     print(f"Working: {incoming}")
     
-    python_is_great()  
+    python_is_great()
+    python_is_great(var)
+    python_is_great("var")  
 # example 2
 im_a_variable = "I'm a value"
 
