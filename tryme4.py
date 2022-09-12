@@ -15,7 +15,15 @@ python_is_great("I'm a value")
 python_is_great(im_a_variable)
 python_is_great(im_an_expression)
 # example 3
+def local_var_fun(var):
+    here_we_go_again = str(var)
+    print(f"Variable: {here_we_go_again}")
 
+print(here_we_go_again)
 # example 4
+def fun_with_arg(unique_name):
+    get_the_param = f"{unique_name}You cant get me!"
+    print(get_the_param)
 
+print(get_the_param)
 # example 5
